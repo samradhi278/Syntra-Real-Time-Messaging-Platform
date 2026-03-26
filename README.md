@@ -1,81 +1,48 @@
+# Syntra - Real-Time Messaging Platform
 
-# Talk-A-Tive
+Syntra is a full-stack real-time messaging application built using the MERN stack. The project focuses on implementing real-time communication and understanding scalable backend systems for handling user interactions.
 
-Talk-a-tive is a Full Stack Chatting App.
-Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
+---
+
+## Overview
+
+This project demonstrates how real-time messaging systems work using WebSockets. It includes authentication, chat management, and live communication between users.
+
+---
+
+## Features
+
+- Secure user authentication using JWT  
+- Real-time messaging with Socket.io  
+- One-to-one and group chat functionality  
+- Online/offline user presence tracking  
+- Responsive and interactive UI  
+
+---
+
 ## Tech Stack
 
-**Client:** React JS
+| Category   | Technologies |
+|-----------|-------------|
+| Frontend  | React.js, HTML, CSS |
+| Backend   | Node.js, Express.js |
+| Database  | MongoDB |
+| Tools     | Socket.io, JWT |
 
-**Server:** Node JS, Express JS
+---
 
-**Database:** Mongo DB
-  
-## Demo
+## System Design Highlights
 
-[https://talk-a-tive.herokuapp.com/](https://talk-a-tive-7fgq.onrender.com)
+- Event-driven communication using WebSockets  
+- REST APIs for user and chat management  
+- Modular backend structure for scalability  
+- Separation of frontend and backend concerns  
 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
-## Run Locally
+---
 
-Clone the project
+## Installation & Setup
 
+### 1. Clone the Repository
 ```bash
-  git clone https://github.com/piyush-eon/mern-chat-app
-```
-
-Go to the project directory
-
-```bash
-  cd mern-chat-app
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-```bash
-  cd frontend/
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
-Start the Client
-
-```bash
-  //open now terminal
-  cd frontend
-  npm start
-```
-
-  
-# Features
-
-### Authenticaton
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/login.PNG)
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/signup.PNG)
-### Real Time Chatting with Typing indicators
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/real-time.PNG)
-### One to One chat
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/mainscreen.PNG)
-### Search Users
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/search.PNG)
-### Create Group Chats
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/new%20grp.PNG)
-### Notifications 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
-### Add or Remove users from group
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/add%20rem.PNG)
-### View Other user Profile
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/profile.PNG)
-## Made By
-
-- [@Piyush-eon](https://github.com/piyush-eon)
-
-  
+git clone https://github.com/samradhi278/Syntra-Real-Time-Messaging-Platform.git
+cd Syntra-Real-Time-Messaging-Platform
