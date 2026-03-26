@@ -46,3 +46,59 @@ This project demonstrates how real-time messaging systems work using WebSockets.
 ```bash
 git clone https://github.com/samradhi278/Syntra-Real-Time-Messaging-Platform.git
 cd Syntra-Real-Time-Messaging-Platform
+```
+
+### 2. Install Backend Dependencies
+```bash
+npm install
+```
+
+### 3. Install Frontend Dependencies
+```bash
+cd frontend
+npm install
+```
+
+### 4. Run the Application
+
+#### Start Backend
+```bash
+npm run start
+```
+
+#### Start Frontend
+```bash
+cd frontend
+npm start
+```
+
+---
+
+## Current Status
+
+This project is under active development.  
+Ongoing work includes UI improvements and additional chat features.
+
+---
+
+## Future Enhancements
+
+- Real-time notifications  
+- Improved UI/UX design  
+- Enhanced group chat features  
+- Better error handling and validations  
+
+---
+
+## Learning Outcomes
+
+- Understanding real-time communication using Socket.io  
+- Implementing authentication using JWT  
+- Designing RESTful APIs  
+- Structuring full-stack applications  
+
+---
+
+## Author
+
+Samradhi Soni  
